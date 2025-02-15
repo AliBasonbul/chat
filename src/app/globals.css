@@ -19,3 +19,6 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.chatbox{
+  @apply p-2 rounded mb-2 shadow-md max-w-[75%] sm:max-w-[60%] lg:max-w-[50%] break-words text-white;
+}
