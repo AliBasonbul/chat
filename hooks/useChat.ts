@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import io from "socket.io-client";
 
-console.log(process.env.NEXT_URL_SERVER, "here")
+console.log(process.env.NEXT_PUBLIC_SERVER, "here")
 const socket = io(`${process.env.NEXT_PUBLIC_SERVER}`);
 
 export function useChat() {
