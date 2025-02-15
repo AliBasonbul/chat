@@ -4,7 +4,6 @@ import ChatBox from "../../components/ChatBox";
 
 export default function Chat() {
   const { messages, message, setMessage, username, setUsername, sendMessage, users, isLoggedIn, handleLogin } = useChat();
-
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gradient-to-r from-purple-500 to-blue-500">
       <div className="w-full max-w-2xl p-6 bg-white shadow-2xl rounded-lg">
